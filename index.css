@@ -1,0 +1,225 @@
+body{
+    margin: 0;
+    
+}
+.fundo{
+    padding: 1px; 
+background: url(img3.jpg) no-repeat;
+    background-size: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #00688B;
+}
+
+.tela{
+    background-color: #E6E6FA;
+    color: red;
+    width: 400px;
+    height: 350px;
+    margin: 100px 50% 6.4% 480px;
+    padding-top: 50px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.tela input{
+    width: 80%;
+    padding: 10px 10px;
+    margin: -3px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 8px;
+    
+
+}
+
+.tela input[type=submit], input[type=reset]{
+    background-color: #00688B;
+    border: none;
+    color: white;
+    width: 80%;
+    padding: 10px 10px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+
+
+
+.rodape {
+  padding: 10px; 
+  text-align: center;
+  background: #00688B; 
+}
+
+.header {
+  background-color: #E6E6FA;
+  padding: 20px;
+  text-align: left;
+}
+
+.menu2 {
+  overflow: hidden;
+  background-color: #00688B;
+}
+
+.menu2 a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.menu2 a:hover {
+  background-color: #E6E6FA;
+  color: black;
+}
+
+.menu2 a.active {
+  background-color: #00BFFF;
+  color: white;
+}
+
+.menu2-right {
+  float: right;
+}
+
+.pesquisa1{
+    padding: 12px 40px 12px 12px;
+}
+
+.pesquisa input[type=text] {
+  width: 150px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('icons8-search-24.png');
+  background-position: 10px 8px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+.pesquisa input[type=text]:focus {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*TABELA E-MAILS*/
+
+#tblCaixaEntrada{
+    width:100%;
+    background-color: #FFFAFA;
+    cursor: pointer;
+}
+ 
+#tblCaixaEntrada tr td{
+    height:30px;
+    border-bottom:solid 1px #000;
+    padding: 10px;
+    margin:0px;
+}
+ 
+#tblCaixaEntrada tr td:nth-child(1),
+#tblCaixaEntrada tr td:nth-child(2),
+#tblCaixaEntrada tr td:nth-child(3){
+    width:20px;
+}
+
+.email{
+    padding: 12px 40px 40px 12px;
+}
+
+
+/*Cadastrar*/
+
+.cad{
+    background-color: #ddd;
+    color: #00688B;
+    width: 92%;
+    height: 500px;
+    margin: 60px 10px 20px 40px;
+    padding-top: 50px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.cad input{
+    width: 80%;
+    padding: 10px 10px;
+    margin: -3px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 8px;
+}
+
+.cad input[type=submit]{
+    background-color: #00E5EE;
+    border: none;
+    color: white;
+    width: 10%;
+    padding: 10px 10px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.cad input[type=reset]{
+    background-color: #00E5EE;
+    border: none;
+    color: white;
+    width: 10%;
+    padding: 10px 10px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+
+
+h1{
+    color: #00688B;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Validar*/
+

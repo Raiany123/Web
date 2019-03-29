@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cadastrar</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        <div class="header">
+  <img src="Logo.png" width="300" height="220">
+</div>
+
+<div class="menu2">
+  <a class="active" href="pagInicial.html">Home</a>
+  <a href="Cadastrar.html">Cadastrar</a>
+  <a href="Produtos.html">Produtos</a>
+  <a href="">Fornecedores</a>
+  <a href="">Ajuda</a>
+                <a href="">Sobre</a>
+                <a href="FaleConosco.html">Fale conosco</a>
+    <div class="menu2-right">
+    <a href="index.html">Sair</a>
+        </div>
+</div>
+        
+       
+        <h1>Cadastrar Produtos</h1>
+        
+<div>
+        <div class="cad" id="app">
+        <form action="" v-on:submit.prevent="checkForm">
+            
+            <label for="nome">Código: </label>
+            <input type="text" v-model="text" name="" required><br></br>
+            <label for="nome">Nome: </label>
+            <input type="text" v-model="text" name="" required><br></br>
+    <label for="nome">Marca: </label>
+            <input type="text" v-model="text" name="" required><br></br>
+        <label for="nome">E-mail do Forcnecedor: </label>
+            <input type="email" v-model="email" name="" required><br></br>
+            
+        
+    <input type="submit" value="Salvar">
+<input type="reset" value="Limpar">
+    
+    <ul>
+        <li v-for="error in errors">{{error}}</li>
+    </ul>
+        
+        </form>
+        </div>
+        </div>
+        <div class="rodape">
+  <p>Stock Control - 2019</p>
+  </div>
+
+<script>
+var app = new Vue({
+el: "#app",
+    data:{
+        errors: [],
+        codigo: "",
+        nome: "",
+        marca: "",
+        email: "",
+        
+    },
+    methods: {
+        checkForm: function(str){
+            this.errors = [];
+            
+            if(!this.codigo){
+                this.errors.push('O código deve ser preenchido');
+            }if(!this.nome){
+                this.errors.push('O nome deve ser preenchido');
+            }if(!this.marca){
+                this.errors.push('A marca deve ser preenchida');
+            }if(!this.email){
+                this.errors.push('O email deve ser preenchido');
+            }
+        }
+    }
+})
+   
+        </script>
+    </body>
+</html>
